@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-US">
+{% include head.html %}
+
+<body>
+    <div class="wrapper">
+
+        <!--[if lt IE 10]>
+        {% include old-browser-warning.html %}
+        <![endif]-->
+
+        {% include sidebar.html %}
+        <section class="content-section">
+            {{ page.content }}
+        </section>
+        <section class="footer-section">
+            {% include page-footer.html %}
+        </section>
+    </div>
+    {% include scripts.html %}
+</body>
+
+</html>

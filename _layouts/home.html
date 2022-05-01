@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-US">
+{% include head.html %}
+
+<body>
+   
+    <div class="wrapper">
+
+        <!--[if lt IE 10]>
+        {% include old-browser-warning.html %}
+        <![endif]-->
+        
+        {% include sidebar.html %}
+        <section class="content-section">
+            {% for post in site.posts limit:1 %} 
+                {% include post-content.html %} 
+            {% endfor %}
+
+            {% unless page.hideMorePosts %}
+                {% include more-posts.html %}
+            {% endunless %}
+
+            {% unless page.hideComments %}
+                {% include post-comments.html %}
+            {% endunless %}
+        </section>
+        <section class="footer-section">
+            {% include page-footer.html %}
+        </section>
+    </div>
+    {% include scripts.html %}
+</body>
+
+</html>
