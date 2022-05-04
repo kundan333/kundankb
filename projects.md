@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Projects
+permalink: /projects/
 
 hideTimeToRead: true
 hideComments: true
