@@ -12,8 +12,13 @@
         
         {% include sidebar.html %}
         <section class="content-section">
-            {% for post in site.posts limit:1 %} 
-                {% include post-content.html %} 
+            {% for post in site.posts %}
+            {% if post.url == '/rust-game-server' %}
+
+                {% include post-content.html %}
+
+            {% endif %}
+
             {% endfor %}
 
             {% unless page.hideMorePosts %}

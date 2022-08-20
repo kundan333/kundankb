@@ -18,7 +18,7 @@ I want to make my android apps icons look better so I searched on the play store
 I used Adobe Photoshop and Adobe Illustrator to make icons. I enjoyed it very much and learned much from designing icons. 
 
 
-
+ <img src="{{ '/assets/img/icon.jpg' | relative_url }}" class="" alt="icons">
 
 
 #### Type of icons
