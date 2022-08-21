@@ -6,7 +6,7 @@ permalink: /rotate-hex-pro
 ---
 
 
-## Project details:
+## Project details
 - Date: 2021
 - Project link: [Rotate Hex](https://play.google.com/store/apps/details?id=com.triplethree.hexcolorpuzzle&hl=en&gl=US)
 - Technology: Java, Android, OpenGL ES

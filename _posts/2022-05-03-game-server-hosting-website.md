@@ -9,8 +9,8 @@ permalink: /rust-game-server
 
 ### Project Details 
 
-- **Date**:
-- **Project demo link** :
+- **Date**: 2021
+- **Project demo link** : [rust server](https://rustserver.kundankb.com)
 - **Technology**: LAMP, Go Language, Bash
 
 ### Introduction
