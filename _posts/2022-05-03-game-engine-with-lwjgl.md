@@ -34,7 +34,7 @@ All the games I made used matrix game engine some are
 
 Various technologies are used in matrix game engine
 - [OpenGL](https://www.khronos.org/opengl/wiki/Getting_Started)
-- [LWJGL](https://www.lwjgl.org/) (used various libraries like Imgui, Png decoder )
+- [LWJGL](https://www.lwjgl.org/) (used various libraries like IMGUI, Png decoder )
 
 
 
