@@ -2,7 +2,7 @@
 layout: post
 title: Ev Charging Station Finder
 date: 2022-05-05 17:00:00 +0530
-permalink: /ev-charging-station-finder
+permalink: /ev-charging-station-finder/
 ---
 
 
